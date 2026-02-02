@@ -1,5 +1,7 @@
 # Calogero–Moser hyperplane arrangements
 
+By [Ulrich Thiel](https://ulthiel.com)
+
 The following table is an extended version about data of the Calogero–Moser hyperplane arrangements for exceptional complex reflection groups as discussed by G. Bellamy, T. Schedler, and myself in [*Hyperplane arrangements associated to symplectic quotient singularities*](https://arxiv.org/abs/1702.04881). The hyperplanes have been computed by myself with methods described in [*CHAMP: A Cherednik Algebra Magma Package*](https://arxiv.org/abs/1402.5122), and by C. Bonnafé and myself in [*Computational aspects of Calogero-Moser spaces*](https://arxiv.org/abs/2112.15495). The 2-reflection groups are missing in the table since here the situation is clear (see the first paper). The other missing ones are so far too complicated to compute.
 
 The repository contains [Sage](http://www.sagemath.org/) files describing the corresponding hyperplane arrangement ℰ inside a vector space 𝔠. This file can be loaded into Sage using the load function as follows:
@@ -35,3 +37,10 @@ The column "π(t)" gives the Poincaré polynomial of the arrangement, exp" the e
 
 Data last modified on August 2, 2021 at 13:38 pm. Moved to Github on February 2, 2026.
 
+
+## License
+
+The mathematical datasets in this repository are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+See LICENSE for details.
