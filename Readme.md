@@ -13,7 +13,7 @@ L=LatticePoset(P)        #the intersection lattice of A
 L.is_supersolvable()     #check if A is supersolvable
 ```
 
-The column “ss” describes whether the arrangement is supersolvable or not. If it is, then it is already free, and it is also K(π,1) by Falk-Randell and Terao.
+The column "π(t)" gives the Poincaré polynomial of the arrangement, exp" the exponents, “ss” describes whether the arrangement is supersolvable or not, "free" if it is free or not, and "K(π,1)" if it is K(π,1). If the arrangement is supersolvable, then it is already free, and it is also K(π,1) by Falk-Randell and Terao.
 
 | Group          | #ℰ  | dim 𝔠 | π(t)                                                                | exp     | ss  | free | K(π,1) |
 | -------------- | --- | ------ | ------------------------------------------------------------------- | ------- | --- | ---- | ------ |
@@ -33,4 +33,5 @@ The column “ss” describes whether the arrangement is supersolvable or not. I
 | $G_{26}$       | 37  | 3      | $(335t^{2}+36t+1)(t+1)$                                             | –       | no  | no   | ?      |
 | $F_{4}=G_{28}$ | 8   | 2      | $(7t+1)(t+1)$                                                       | 1,7     | yes | yes  | yes    |
 
+Data last modified on August 2, 2021 at 13:38 pm. Moved to Github on February 2, 2026.
 
