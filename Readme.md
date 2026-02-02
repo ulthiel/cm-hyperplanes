@@ -1,4 +1,4 @@
-# Caloger–Moser hyperplane arrangements
+# Calogero–Moser hyperplane arrangements
 
 The following table is an extended version about data of the Calogero–Moser hyperplane arrangements for exceptional complex reflection groups as discussed by G. Bellamy, T. Schedler, and myself in [*Hyperplane arrangements associated to symplectic quotient singularities*](https://arxiv.org/abs/1702.04881). The hyperplanes have been computed by myself with methods described in [*CHAMP: A Cherednik Algebra Magma Package*](https://arxiv.org/abs/1402.5122), and by C. Bonnafé and myself in [*Computational aspects of Calogero-Moser spaces*](https://arxiv.org/abs/2112.15495). The 2-reflection groups are missing in the table since here the situation is clear (see the first paper). The other missing ones are so far too complicated to compute.
 
