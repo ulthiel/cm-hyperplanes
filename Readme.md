@@ -7,7 +7,7 @@ This repository contains data about Calogero–Moser hyperplane arrangements as 
 In the notation of [[1](#references)], let $\Gamma \subset \mathrm{GL}(\mathfrak{h})$ be a complex reflection group. All of the following constructions are relative to $\Gamma$. The Calogero–Moser hyperplane arrangement $\mathcal{E}$ is a hyperplane arrangement contained in a rational vector space $\mathfrak{c}_{\mathbb{Q}}$. The arrangement is stable under the action of a certain group: the Namikawa–Weyl group $W$. We know that the arrangement $\mathcal{E}$ contains the Coxeter arrangement of $W$. The integer 
 
 $$
-E = \frac{1}{|W|} \dim H^\bullet(\mathfrak{c}_{\mathbb{C}} \setminus \mathcal{E}_{\mathbb{C}}, \mathbb{C}) \;,
+E = \frac{1}{|W|} \dim H^\bullet(\mathfrak{c}_{\mathbb{C}} \setminus \mathcal{E}_{\mathbb{C}}, \mathbb{C}),
 $$
 
 where $H^\bullet$ is the Orlik–Solomon algebra of the (complexified) hyperplane arrangement complement, counts the number of chambers up to the action of $W$, and this gives the number of $\mathbb{Q}$-factorial terminalization of the symplectic singularity $(\mathfrak{h} \oplus \mathfrak{h}^*)/\Gamma$.
@@ -86,7 +86,7 @@ A question mark indicates that we do not currently know the answer.
 
 ## Version
 
-Last modified on August 2, 2021 at 13:38 pm.
+Last modified on August 2, 2021 at 13:38 pm. Moved to Github on February 2-3, 2026.
 
 ## License
 
