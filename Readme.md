@@ -41,11 +41,9 @@ In the table below we list the following data on $\mathcal{E}$:
 
 7. The column "free" indicates whether the arrangement $\mathcal{E}$ is free. 
 
-8. 
+8. The column "ss" indicates whether the arrangement $\mathcal{E}$ is supersolvable.
 
-9. The column "ss" indicates whether the arrangement $\mathcal{E}$ is supersolvable.
-
-10. The column $K(\pi,1)$ indicates whether the arrangement $\mathcal{E}$ is $K(\pi,1)$. If the arrangement is supersolvable, then it is already free and it is also $K(\pi,1)$ by Falk–Randell and Terao.
+9. The column $K(\pi,1)$ indicates whether the arrangement $\mathcal{E}$ is $K(\pi,1)$. If the arrangement is supersolvable, then it is already free and it is also $K(\pi,1)$ by Falk–Randell and Terao. Supersolvability is so far the only way we can prove the $K(\pi,1)$ property.
 
 A question mark indicates that we do not currently know the answer.
 
