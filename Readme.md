@@ -1,6 +1,6 @@
 # Calogero–Moser hyperplane arrangements
 
-By [Ulrich Thiel](https://ulthiel.com)
+By [Ulrich Thiel](https://ulthiel.com/math)
 
 This repository contains data about Calogero–Moser hyperplane arrangements as discussed by G. Bellamy, T. Schedler, and myself in [[1](#references)]. 
 
