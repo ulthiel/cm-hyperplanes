@@ -2,14 +2,19 @@
 
 By [Ulrich Thiel](https://ulthiel.com)
 
-This repository contains data about Calogero–Moser hyperplane arrangements for as discussed by G. Bellamy, T. Schedler, and myself in [1]. 
+This repository contains data about Calogero–Moser hyperplane arrangements as discussed by G. Bellamy, T. Schedler, and myself in [[1](#references)]. 
 
-In the notation of [[1](#references)], let $\Gamma \subset \mathrm{GL}(\mathfrak{h})$ be a complex reflection group. All of the following constructions are relative to $\Gamma$. The Calogero–Moser hyperplane arrangement $\mathcal{E}$ is a hyperplane arrangement contained in a rational vector space $\mathfrak{c}_{\mathbb{Q}}$. The arrangement is stable under the action of a certain group: the Namikawa–Weyl group $W$. We know that the arrangement $\mathcal{E}$ contains the Coxeter arrangement of $W$. 
+In the notation of [[1](#references)], let $\Gamma \subset \mathrm{GL}(\mathfrak{h})$ be a complex reflection group. All of the following constructions are relative to $\Gamma$. The Calogero–Moser hyperplane arrangement $\mathcal{E}$ is a hyperplane arrangement contained in a rational vector space $\mathfrak{c}_{\mathbb{Q}}$. The arrangement is stable under the action of a certain group: the Namikawa–Weyl group $W$. We know that the arrangement $\mathcal{E}$ contains the Coxeter arrangement of $W$. The integer 
+
+$$
+E = \frac{1}{|W|} \dim H^\bullet(\mathfrak{c}_{\mathbb{C}} \setminus \mathcal{E}_{\mathbb{C}}, \mathbb{C}) \;,
+$$
+
+where $H^\bullet$ is the Orlik–Solomon algebra of the (complexified) hyperplane arrangement complement, counts the number of chambers up to the action of $W$, and this gives the number of $\mathbb{Q}$-factorial terminalization of the symplectic singularity $(\mathfrak{h} \oplus \mathfrak{h}^*)/\Gamma$.
 
 ## Data for exceptional complex reflection groups
 
-This repository contains [Sage](http://www.sagemath.org/) files of the hyperplane arrangements for *exceptional* complex reflection groups. The 2-reflection groups are missing since here the 
-situation is trivial, see [1]. The other missing ones are so far too complicated to compute. The files can be loaded as follows:
+This repository contains [Sage](http://www.sagemath.org/) files of the hyperplane arrangements for *exceptional* complex reflection groups. The hyperplanes have been computed by myself with methods described in [[2](#references)], and by C. Bonnafé and myself in [[3](#references)]. The 2-reflection groups are missing since here the situation is trivial, see [[1](#references)]. The other missing ones are so far too complicated to compute. The files can be loaded as follows:
 
 ```python
 load("G4.sage")          #loads file with arrangement for G4
@@ -28,11 +33,11 @@ In the table below we list the following data on $\mathcal{E}$:
 
 3. The dimension of the vector space $\mathfrak{c}_{\mathbb{Q}}$.
 
-4. The Namikawa Weyl group W. It will be a product of symmetric groups.
+4. The Namikawa Weyl group $W$. It will be a product of symmetric groups.
 
 5. The Poincaré polynomial $\pi(t)$ of $\mathcal{E}$. 
 
-6. The integer $E = \frac{1}{|W|} \dim H^\bullet(\mathfrak{c}_{\mathbb{C}} \setminus \mathcal{E}_{\mathbb{C}}, \mathbb{C})$, where $H^\bullet$ is the Orlik–Solomon algebra of the (complexified) hyperplane arrangement complement. This counts the number of chambers up to the action of $W$, and this gives the number of $\mathbb{Q}$-factorial terminalization of the symplectic singularity $(\mathfrak{h} \oplus \mathfrak{h}^*)/\Gamma$. 
+6. The integer $E$.
 
 7. The column "free" indicates whether the arrangement $\mathcal{E}$ is free. 
 
@@ -40,7 +45,7 @@ In the table below we list the following data on $\mathcal{E}$:
 
 9. The column "ss" indicates whether the arrangement $\mathcal{E}$ is supersolvable.
 
-10. The column "$K(\pi,1)$" indicates whether the arrangement $\mathcal{E}$ is $K(\pi,1)$. If the arrangement is supersolvable, then it is already free and it is also $K(\pi,1)$ by Falk–Randell and Terao.
+10. The column $K(\pi,1)$ indicates whether the arrangement $\mathcal{E}$ is $K(\pi,1)$. If the arrangement is supersolvable, then it is already free and it is also $K(\pi,1)$ by Falk–Randell and Terao.
 
 A question mark indicates that we do not currently know the answer.
 
@@ -79,13 +84,13 @@ A question mark indicates that we do not currently know the answer.
    *Selecta Math. (N.S.)* 29 (2023), no.5, Paper No. 79. With [C. Bonnafé](https://imag.umontpellier.fr/~bonnafe/).  
    [[DOI](https://doi.org/10.1007/s00029-023-00878-3)] · [[arXiv](https://arxiv.org/abs/2112.15495)] · [[MR](https://mathscinet.ams.org/mathscinet/article?mr=4659466)]
 
+## Version
+
+Last modified on August 2, 2021 at 13:38 pm.
+
 ## License
 
 The mathematical datasets in this repository are licensed under
 Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 See LICENSE for details.
-
-## Version
-
-Last modified on August 2, 2021 at 13:38 pm.
