@@ -7,7 +7,8 @@ This repository contains data about Calogero–Moser hyperplane arrangements as 
 In the notation of [[1](#references)], let $\Gamma \subset \mathrm{GL}(\mathfrak{h})$ be a complex reflection group. All of the following constructions are relative to $\Gamma$. The Calogero–Moser hyperplane arrangement $\mathcal{E}$ is a hyperplane arrangement contained in a rational vector space $\mathfrak{c}_{\mathbb{Q}}$. The arrangement is stable under the action of a certain group: the Namikawa–Weyl group $W$. We know that the arrangement $\mathcal{E}$ contains the Coxeter arrangement of $W$. The integer 
 
 $$
-E = \frac{1}{|W|} \dim H^\bullet(\mathfrak{c}_{\mathbb{C}} \setminus \mathcal{E}_{\mathbb{C}}, \mathbb{C}),
+E = \frac{1}{|W|} \dim H^\bullet(\mathfrak{c}_{\mathbb{C}} \setminus \mathcal{E}_{\mathbb{C}}, \mathbb{C})
+  = \frac{\pi(1)}{|W|},
 $$
 
 where $H^\bullet$ is the Orlik–Solomon algebra of the (complexified) hyperplane arrangement complement, counts the number of chambers up to the action of $W$, and this gives the number of $\mathbb{Q}$-factorial terminalization of the symplectic singularity $(\mathfrak{h} \oplus \mathfrak{h}^*)/\Gamma$.
@@ -54,12 +55,12 @@ A question mark indicates that we do not currently know the answer.
 | $G_{6}$        | 16                | 3                                        | $\mathfrak{S}_2 \times \mathfrak{S}_3$                       | $(8t+1)(7t+1)(t+1)$                                                 | 12      | yes  | no  | ?          |
 | $G_{7}$        | 61                | 5                                        | $\mathfrak{S}_2 \times \mathfrak{S}_3 \times \mathfrak{S}_3$ | $(98644t^{4}+18462t^{3}+1489t^{2}+60t+1)(t+1)$                      | 3296    | no   | no  | ?          |
 | $G_{8}$        | 25                | 3                                        | $\mathfrak{S}_4$                                             | $(13t+1)(11t+1)(t+1)$                                               | 14      | yes  | no  | ?          |
-| $G_{9}$        | 54                | 4                                        | $\mathfrak{S}_2 \times \mathfrak{S}_4$                       | $(6499t^{3}+983t^{2}+53t+1)(t+1)$                                   | 2       | no   | no  | ?          |
+| $G_{9}$        | 54                | 4                                        | $\mathfrak{S}_2 \times \mathfrak{S}_4$                       | $(6499t^{3}+983t^{2}+53t+1)(t+1)$                                   | 314     | no   | no  | ?          |
 | $G_{10}$       | 111               | 5                                        | $\mathfrak{S}_3 \times \mathfrak{S}_4$                       | $(1001586t^{4}+107662t^{3}+4913t^{2}+110t+1)(t+1)$                  | 15476   | no   | no  | ?          |
 | $G_{11}$       | 196               | 6                                        | $\mathfrak{S}_2 \times \mathfrak{S}_3 \times \mathfrak{S}_4$ | $(383999826t^{5}+25688824t^{4}+857259t^{3}+17047t^{2}+195t+1)(t+1)$ | 2851133 | no   | no  | ?          |
 | $G_{13}$       | 6                 | 2                                        | $\mathfrak{S}_2 \times \mathfrak{S}_2$                       | $(5t+1)(t+1)$                                                       | 3       | yes  | yes | yes        |
 | $G_{14}$       | 22                | 3                                        | $\mathfrak{S}_2 \times \mathfrak{S}_3$                       | $(116t^{2}+21t+1)(t+1)$                                             | 23      | no   | no  | ?          |
-| $G_{15}$       | 65                | 4                                        | $\mathfrak{S}_2 \times \mathfrak{S}_3 \times \mathfrak{S}_2$ | $(13982t^{3}+1529t^{2}+32t+1)(1+t)$                                 | 2596    | no   | no  | ?          |
+| $G_{15}$       | 65                | 4                                        | $\mathfrak{S}_2 \times \mathfrak{S}_3 \times \mathfrak{S}_2$ | $(13982t^{3}+1529t^{2}+64t+1)(1+t)$                                 | 1298    | no   | no  | ?          |
 | $G_{20}$       | 12                | 2                                        | $\mathfrak{S}_3 $                                            | $(11t+1)(t+1)$                                                      | 4       | yes  | yes | yes        |
 | $G_{25}$       | 12                | 2                                        | $\mathfrak{S}_3$                                             | $(11t+1)(t+1)$                                                      | 4       | yes  | yes | yes        |
 | $G_{26}$       | 37                | 3                                        | $\mathfrak{S}_2 \times \mathfrak{S}_3$                       | $(335t^{2}+36t+1)(t+1)$                                             | 62      | no   | no  | ?          |
